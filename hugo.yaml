@@ -1,5 +1,4 @@
-baseURL: https://lihewin.github.io/HeartHabitat/
-relativeURLS: true
+baseURL: https://habitats.top/
 languageCode: zh-cn
 title: Heart Habitat
 publishDir: docs
