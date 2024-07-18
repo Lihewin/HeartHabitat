@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/hugo.json": [
+            "file:///c%3A/Users/zhube/Documents/Hugo/Habitats/hugo.yaml",
+            "file:///c%3A/Users/zhube/Documents/Hugo/Habitats/config.yaml"
+        ]
+    }
+}
