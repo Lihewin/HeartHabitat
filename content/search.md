@@ -1,5 +1,5 @@
 ---
-title: "Search"
-placeholder: Search demo site with full text fuzzy search ...
+title: "搜索"
+placeholder: 支持模糊搜索
 layout: "search"
 ---

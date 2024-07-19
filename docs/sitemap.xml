@@ -2,20 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://habitats.top/</loc>
-    <lastmod>2024-07-18T15:58:36+08:00</lastmod>
-  </url><url>
     <loc>https://habitats.top/posts/</loc>
-    <lastmod>2024-07-18T15:58:36+08:00</lastmod>
+    <lastmod>2024-07-20T00:03:47+08:00</lastmod>
   </url><url>
-    <loc>https://habitats.top/archives/</loc>
+    <loc>https://habitats.top/tags/</loc>
+    <lastmod>2024-07-20T00:03:47+08:00</lastmod>
+  </url><url>
+    <loc>https://habitats.top/posts/hello/</loc>
+    <lastmod>2024-07-20T00:03:47+08:00</lastmod>
+  </url><url>
+    <loc>https://habitats.top/tags/%E6%9D%82%E9%A1%B9/</loc>
+    <lastmod>2024-07-20T00:03:47+08:00</lastmod>
+  </url><url>
+    <loc>https://habitats.top/</loc>
+    <lastmod>2024-07-20T00:03:47+08:00</lastmod>
   </url><url>
     <loc>https://habitats.top/categories/</loc>
   </url><url>
-    <loc>https://habitats.top/search/</loc>
-  </url><url>
     <loc>https://habitats.top/series/</loc>
   </url><url>
-    <loc>https://habitats.top/tags/</loc>
+    <loc>https://habitats.top/archives/</loc>
+  </url><url>
+    <loc>https://habitats.top/search/</loc>
   </url>
 </urlset>

@@ -1,6 +1,5 @@
 baseURL: https://habitats.top/
 languageCode: zh-cn
-title: Habitats
 publishDir: docs
 theme: ["PaperMod"]
 hasCJKLanguage: true
@@ -13,30 +12,30 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
 
 minify:
   disableXML: true
   # minifyOutput: true
 
+title: 氧栖阁🏝️
+menu:
+  main:
+    - name: 归档📂
+      url: archives
+      weight: 5
+    - name: 搜索🔍
+      url: search/
+      weight: 10
+    - name: 标签🏷️
+      url: tags/
+      weight: 10
+    - name: 主页🏡
+      url: "#"
+
 taxonomies:
   category: categories
   tag: tags
   series: series
-menu:
-  main:
-    - name: Archive
-      url: archives
-      weight: 5
-    - name: Search
-      url: search/
-      weight: 10
-    - name: Tags
-      url: tags/
-      weight: 10
-
-
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
 
 outputs:
   home:
@@ -46,13 +45,10 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
-
   defaultTheme: auto
-  # disableThemeToggle: true
-  ShowShareButtons: true
+  # disableThemeToggle: truep
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
@@ -64,21 +60,17 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["images/papermod-cover.png"]
-
   profileMode:
     enabled: true
-    title: Habitats
+    title: Habitats🏝️
+    subtitle: 零重力纯氧
     imageUrl: "https://img.habitats.top/2024/07/b54f2ea3abb15802b3dea932c12c79b6.webp"
-    imageTitle: Art by Vress
-    # imageWidth: 120
-    # imageHeight: 120
+    imageTitle: 头像来自 Vress
     buttons:
-      - name: Posts
+      - name: 文章
         url: posts
-      - name: Tags
+      - name: 标签
         url: tags
-
   socialIcons:
     - name: github
       title: View Source on Github
@@ -86,25 +78,13 @@ params:
     - name: email
       title: Contact me with email
       url: "mailto:1808465667@qq.com"
-
-  editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  label:
-  iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
-  text: "Home"
-  icon: icon.png
-  iconHeight: 35
-
   # analytics:
   #     google:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
+    favicon: "static/img/favicon.ico"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
   #     apple_touch_icon: "<link / abs url>"
