@@ -59,7 +59,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  # comments: false
+  comments: true
   profileMode:
     enabled: true
     title: Habitats🏝️
